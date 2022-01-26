@@ -6,7 +6,7 @@ tasks:
   - init: |
       flutter upgrade
       flutter update-packages --force-upgrade
-      flutter run -d web-server --no-resident
+      flutter run -d web-server
 ports:
   - port: 8080
     onOpen: notify
